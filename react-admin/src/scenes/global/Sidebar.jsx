@@ -62,7 +62,7 @@ export default function Sidebar() {
           }} >
 
             <ProSidebar collapsed={isCollapsed}>
-              <Menu>
+              <Menu iconShape="square">
 
                 <MenuItem
                   onClick={() => setIsCollapsed(!isCollapsed)}
@@ -103,7 +103,7 @@ export default function Sidebar() {
                         />
                     </Box>
                     <Box textAlign="center">
-                      <Typography variant="h2" color={colors.grey[100]} fontWeight="bold" sx={{ m: "10px 0 0 0"}}>Parth Prajapati</Typography>
+                      <Typography variant="h3" color={colors.grey[100]} fontWeight="bold" sx={{ m: "10px 0 0 0"}}>Parth Prajapati</Typography>
                       <Typography variant="h5" color={colors.greenAccent[500]}>
                         VP Admin
                       </Typography>
